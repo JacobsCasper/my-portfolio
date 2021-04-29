@@ -42,14 +42,6 @@ export class ProjectsComponent implements OnInit {
       this.portfolioIsShown=false;
       this.riddleIsShown=false;
     }
-    else if(project=="riddleIsShown"){
-      this.riddleIsShown = !this.riddleIsShown;
-      this.teamTravelerIsShown=false;
-      this.mauticMonitoringIsShown =false;
-      this.portfolioIsShown=false;
-      this.pokedexIsShown=false;
-
-    }
     
 
   }
